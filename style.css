@@ -43,10 +43,3 @@ body {
     cursor: pointer;
 }
 
-.one-block:active {
-    background-color: blue;
-}
-.two-block:active {
-    background-color: green;
-}
-
