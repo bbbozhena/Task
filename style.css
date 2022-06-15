@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+}
+.container {
+    margin: 0px 165px ;
+
+}
+.headline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(83, 83, 83);
+    height: 80px;
+    width: 100%;
+    
+}
+.headline span {
+    font-size: 30px;
+    padding-left: 20px;
+    color: white;
+}
+.header-down {
+    position: relative;
+
+}
+.one-block {
+    position: absolute;
+    z-index: 1;
+    height: 100px;
+    width: 100px;
+    top: 20px;
+    background-color: green;
+    cursor: pointer;
+}
+.two-block {
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 50px;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    cursor: pointer;
+}
+
+.one-block:active {
+    background-color: blue;
+}
+.two-block:active {
+    background-color: green;
+}
+
