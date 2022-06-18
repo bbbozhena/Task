@@ -1,0 +1,61 @@
+
+$general-green: rgb(14, 145, 14);
+$general-blue: rgb(44, 41, 235);
+$height-block: 100px;
+$width-block: 100px;
+
+
+
+body {
+    margin: 0;
+}
+
+.headline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(83, 83, 83);
+    height: 80px;
+    width: 100%;
+
+    span {
+        font-size: 30px;
+        padding-left: 20px;
+        color: white;
+    }
+    
+}
+
+.container {
+    margin: 0px 165px ;
+}
+
+    .header-down {
+        position: relative;
+
+        & .one-block {
+            position: absolute;
+            z-index: 1;
+            height: $height-block;
+            width: $width-block;
+            top: 20px;
+            background-color: $general-green;
+            cursor: pointer;
+        }
+
+        & .two-block {
+            position: absolute;
+            z-index: 1;
+            height: $height-block;
+            width: $width-block;
+            top: 100px;
+            left: 50px;
+            background-color: $general-blue;
+            cursor: pointer;
+        }
+    
+}    
+
+
+
+
