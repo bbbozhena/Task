@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+
+.headline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(83, 83, 83);
+  height: 80px;
+  width: 100%;
+}
+.headline span {
+  font-size: 30px;
+  padding-left: 20px;
+  color: white;
+}
+
+.container {
+  margin: 0px 165px;
+}
+
+.header-down {
+  position: relative;
+}
+.header-down .one-block {
+  position: absolute;
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+  top: 20px;
+  background-color: rgb(14, 145, 14);
+  cursor: pointer;
+}
+.header-down .two-block {
+  position: absolute;
+  z-index: 1;
+  height: 100px;
+  width: 100px;
+  top: 100px;
+  left: 50px;
+  background-color: rgb(44, 41, 235);
+  cursor: pointer;
+}
